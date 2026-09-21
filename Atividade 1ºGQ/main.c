@@ -45,7 +45,6 @@ int musicas_reproduzidas() {
 int main() {
     Lista* playlist = criar_lista();
 
-    // Criando e adicionando 10 músicas diretamente no código
     adiciona_musica(playlist, criar_musica("Song 1", "Artist A", 3.5));
     adiciona_musica(playlist, criar_musica("Song 2", "Artist B", 4.0));
     adiciona_musica(playlist, criar_musica("Song 3", "Artist C", 2.8));
@@ -66,7 +65,6 @@ int main() {
     printf("Musicas reproduzidas: %d\n", musicas_reproduzidas());
     printf("Tempo restante atualizado: %.2f min\n", tempo_restante(playlist));
 
-    // Testando inserção em posição e remoção
     adiciona_musica_posicao(playlist, criar_musica("Bonus Track", "Artist X", 3.0), 2);
     remove_musica(playlist, 5);
 
