@@ -1,5 +1,5 @@
 #ifndef MUSICA_H
-#define MUSICA_Hkkk
+#define MUSICA_H
 
 typedef struct musica Musica;
 
