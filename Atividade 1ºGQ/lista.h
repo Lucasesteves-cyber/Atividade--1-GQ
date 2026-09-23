@@ -1,4 +1,4 @@
-#ifndef LISTA_H
+#ifndef LISTA_H jjj
 #define LISTA_H
 
 #include "musica.h"
