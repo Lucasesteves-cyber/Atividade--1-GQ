@@ -1,4 +1,4 @@
-#include <stdio.h> ppp
+#include <stdio.h> 
 #include "lista.h"
 
 int pos_atual = 0;
