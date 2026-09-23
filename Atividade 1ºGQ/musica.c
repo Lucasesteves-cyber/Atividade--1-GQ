@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> lllll
+#include <string.h> 
 #include "musica.h"
 
 struct musica {
