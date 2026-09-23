@@ -137,4 +137,4 @@ void destruir_lista(Lista* li) {
         }
         free(li);
     }
-}kk
+}
